@@ -1,5 +1,7 @@
-# Functional-Tests-with-Taiko
-This repository will help you to setup a new Functional Test framework using Taiko and Gauge.
+# Functional-Tests-with-Taiko and Gauge
+This repository will help you to setup a new Functional Test BDD framework using Taiko and Gauge. This also includes reporting and some advance concepts.
+
+I used macbook , following isntructions will work for mac.
 
 
 
