@@ -12,3 +12,17 @@ Tags: regression
 
 ## Test the usage of cpt file
 Navigate to "field name" and add text "enter your text here" then click Lets go
+
+
+
+## Test case using the table format
+
+ |UserName  |Password   |
+ |----------|-----------|
+ |Gauge     |3          |
+ |Mingle    |2          |
+ |Snap      |1          |
+ |GoCD      |1          |
+ |Rhythm    |0          |
+
+* Enter user <UserName> which has <Password>.
