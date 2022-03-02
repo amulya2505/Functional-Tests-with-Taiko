@@ -26,3 +26,9 @@ Navigate to "field name" and add text "enter your text here" then click Lets go
  |Rhythm    |oep234     |
 
 * Enter username <UserName> into username text field which has <Password> into password text field
+
+
+
+// 3 underscores define tear down steps
+___
+* Tear down logout step
