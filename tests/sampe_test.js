@@ -68,11 +68,10 @@ step('user enter <arg0> in dummy text field',async function (arg0) {
 
 step('user selects value from dummy dropdown',async function () {
  await taiko.waitFor(1000);
- const dummy_textfield = selectors.textfield;
- assert.ok(await dummy_textfield.exists());
- await write('1234', into(dummy_textfield));  
- await clear(dummy_textfield);
+ const dummy_dropdown = selectors.dropdown;
 
+ assert.ok(await dummy_dropdown.exists());
+ dummy_dropdown.select(3);
  }
 );
 
