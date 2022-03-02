@@ -26,3 +26,6 @@ E.g., `nvm install 14`, this will install node.js version 14.X <br>
 
 Note: 
     - All environment related properties are in the `functional_tests/env` folder.<br>
+    - reports will be generated in reports folder under reports folder in html format
+    - to implement reports in circle ci --> dump the complete folder in the artifacts
+    - screenshot will be taken in if tests fails will be in the same report folder itself
