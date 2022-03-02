@@ -25,4 +25,4 @@ Navigate to "field name" and add text "enter your text here" then click Lets go
  |rohit     |13pwed     |
  |Rhythm    |oep234     |
 
-* Enter user <UserName> which has <Password>.
+* Enter username <UserName> into username text field which has <Password> into password text field
