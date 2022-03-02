@@ -29,7 +29,7 @@ E.g., `nvm install 14`, this will install node.js version 14.X <br>
 Note: 
     - All environment related properties are in the `functional_tests/env` folder.<br>
     - reports will be generated in reports folder under reports folder in html format <br>
-    - to implement reports in circle ci --> dump the complete folder in the artifacts <br>
+    - to implement reports in circle ci (ci cd tool) --> dump the complete folder in the artifacts <br>
     - screenshot will be taken in reports directory if tests fails will be in the same report folder itself . Code for this is written in the stepfile <br>
     - in default.properties file you can change the report path and other deault properties. <br>
     - In manifest.json you can define language used and plugins required for the Gauge project. <br>
