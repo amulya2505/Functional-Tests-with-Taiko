@@ -8,8 +8,8 @@ const selectors = taiko => {
       radiobutton: taiko.radioButton({ id: 'others' }),
       image: taiko.image({ alt: 'image_alt_text' }),
       letsgo: taiko.$(`//div[@data-testid="sampletestid"]`),
-      userName : taiko.textBox({ id: 'username' }),
-      password : taiko.textBox({ id: 'password' }),
+      username_textfield : taiko.textBox({ id: 'username' }),
+      password_textfield : taiko.textBox({ id: 'password' }),
     
     };
   };
