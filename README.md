@@ -30,4 +30,7 @@ Note:
     - All environment related properties are in the `functional_tests/env` folder.<br>
     - reports will be generated in reports folder under reports folder in html format
     - to implement reports in circle ci --> dump the complete folder in the artifacts
-    - screenshot will be taken in if tests fails will be in the same report folder itself
+    - screenshot will be taken in reports directory if tests fails will be in the same report folder itself . Code for this is written in the stepfile
+    - in default.properties file you can change the report path and other deault properties.
+    - In manifest.json you can define language used and plugins required for the Gauge project.
+    
