@@ -19,10 +19,10 @@ Navigate to "field name" and add text "enter your text here" then click Lets go
 
  |UserName  |Password   |
  |----------|-----------|
- |Gauge     |3          |
- |Mingle    |2          |
- |Snap      |1          |
- |GoCD      |1          |
- |Rhythm    |0          |
+ |sahil     |pwd123     |
+ |raman     |pw212      |
+ |mohit     |pe231      |
+ |rohit     |13pwed     |
+ |Rhythm    |oep234     |
 
 * Enter user <UserName> which has <Password>.
