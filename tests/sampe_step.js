@@ -75,3 +75,16 @@ step('user selects value from dummy dropdown',async function () {
  }
 );
 
+
+
+step('Enter user <usrnm> which has <pwd>.' , async function(usrnm,pwd) {
+ const dummy_username = selectors.username_textfield;
+ const dummy_password = selectors.password_textfield;
+ 
+ assert.ok(await dummy_username.exists());
+ assert.ok(await dummy_password.exists());
+  
+ await write(usrnm, into(dummy_username));
+ await write(pwd, into(dummy_password));
+ 
+});
