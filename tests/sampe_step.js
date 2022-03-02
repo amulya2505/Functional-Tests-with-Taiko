@@ -77,7 +77,7 @@ step('user selects value from dummy dropdown',async function () {
 
 
 
-step('Enter user <usrnm> which has <pwd>.' , async function(usrnm,pwd) {
+step('Enter username <usrnm> into username text field which has <pwd> into password text field' , async function(usrnm,pwd) {
  const dummy_username = selectors.username_textfield;
  const dummy_password = selectors.password_textfield;
  
